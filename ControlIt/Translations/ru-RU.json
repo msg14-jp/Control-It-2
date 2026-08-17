@@ -1,0 +1,19 @@
+{
+  "MOD_DESCRIPTION": "Управляет интерфейсом главного экрана и сетевым трафиком.",
+  "GROUP_LANGUAGE": "Настройки языка",
+  "GROUP_VISUAL_APPEARANCE": "Настройки отображения",
+  "HIDE_GAME_LOGO": "Скрыть логотип игры",
+  "HIDE_SUBSCRIPTION_PANEL": "Скрыть панель подписок",
+  "HIDE_DLC_PANEL": "Скрыть панель DLC",
+  "HIDE_ACCOUNT_PANEL": "Скрыть панель аккаунта",
+  "HIDE_WORKSHOP_PANEL": "Скрыть панель Мастерской Steam",
+  "HIDE_MENU_BACKGROUND": "Скрыть фоновую панель меню",
+  "HIDE_CHIRPER": "Скрыть Chirper",
+  "HIDE_SOCIAL_MEDIA": "Скрыть социальные сети",
+  "GROUP_NETWORK_TRAFFIC": "Сетевой трафик (перезапустите для применения)",
+  "RESTRICT_ADVERTISING": "Ограничить трафик DLC и Мастерской Steam",
+  "RESTRICT_UGC_DETAILS": "Ограничить детали пользовательского контента",
+  "RESTRICT_TELEMETRY": "Ограничить телеметрию (данные об использовании)",
+  "GROUP_ADVANCED": "Расширенные настройки",
+  "SHOW_STATISTICS": "Показывать статистику в левом нижнем углу главного экрана"
+}

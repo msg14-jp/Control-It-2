@@ -1,0 +1,19 @@
+{
+  "MOD_DESCRIPTION": "タイトル画面のUIとネットワーク通信を制御します。",
+  "GROUP_LANGUAGE": "言語設定",
+  "GROUP_VISUAL_APPEARANCE": "表示設定",
+  "HIDE_GAME_LOGO": "ゲームロゴを非表示",
+  "HIDE_SUBSCRIPTION_PANEL": "サブスクパネルを非表示",
+  "HIDE_DLC_PANEL": "DLCパネルを非表示",
+  "HIDE_ACCOUNT_PANEL": "アカウントパネルを非表示",
+  "HIDE_WORKSHOP_PANEL": "ワークショップパネルを非表示",
+  "HIDE_MENU_BACKGROUND": "メニュー背景パネルを非表示",
+  "HIDE_CHIRPER": "Chirperを非表示",
+  "HIDE_SOCIAL_MEDIA": "SNSを非表示",
+  "GROUP_NETWORK_TRAFFIC": "ネットワーク通信（再起動後に反映）",
+  "RESTRICT_ADVERTISING": "DLCとワークショップの通信を制限",
+  "RESTRICT_UGC_DETAILS": "ユーザー生成コンテンツの詳細情報取得を制限",
+  "RESTRICT_TELEMETRY": "テレメトリ（利用データ送信）を制限",
+  "GROUP_ADVANCED": "詳細設定",
+  "SHOW_STATISTICS": "タイトル画面左下に統計情報を表示"
+}

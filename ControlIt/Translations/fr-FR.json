@@ -1,0 +1,19 @@
+{
+  "MOD_DESCRIPTION": "Contrôle l’interface de l’écran titre et le trafic réseau.",
+  "GROUP_LANGUAGE": "Paramètres de langue",
+  "GROUP_VISUAL_APPEARANCE": "Paramètres d’affichage",
+  "HIDE_GAME_LOGO": "Masquer le logo du jeu",
+  "HIDE_SUBSCRIPTION_PANEL": "Masquer le panneau d’abonnement",
+  "HIDE_DLC_PANEL": "Masquer le panneau DLC",
+  "HIDE_ACCOUNT_PANEL": "Masquer le panneau du compte",
+  "HIDE_WORKSHOP_PANEL": "Masquer le panneau Workshop",
+  "HIDE_MENU_BACKGROUND": "Masquer le panneau de fond du menu",
+  "HIDE_CHIRPER": "Masquer Chirper",
+  "HIDE_SOCIAL_MEDIA": "Masquer les réseaux sociaux",
+  "GROUP_NETWORK_TRAFFIC": "Trafic réseau (redémarrer pour appliquer)",
+  "RESTRICT_ADVERTISING": "Limiter le trafic DLC et Workshop",
+  "RESTRICT_UGC_DETAILS": "Limiter les détails du contenu généré par les utilisateurs",
+  "RESTRICT_TELEMETRY": "Limiter la télémétrie (données d’utilisation)",
+  "GROUP_ADVANCED": "Paramètres avancés",
+  "SHOW_STATISTICS": "Afficher les statistiques en bas à gauche de l’écran titre"
+}

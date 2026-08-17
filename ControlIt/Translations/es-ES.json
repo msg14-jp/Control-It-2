@@ -1,0 +1,19 @@
+{
+  "MOD_DESCRIPTION": "Controla la interfaz de la pantalla de título y el tráfico de red.",
+  "GROUP_LANGUAGE": "Configuración de idioma",
+  "GROUP_VISUAL_APPEARANCE": "Configuración de pantalla",
+  "HIDE_GAME_LOGO": "Ocultar el logotipo del juego",
+  "HIDE_SUBSCRIPTION_PANEL": "Ocultar panel de suscripción",
+  "HIDE_DLC_PANEL": "Ocultar panel de DLC",
+  "HIDE_ACCOUNT_PANEL": "Ocultar panel de cuenta",
+  "HIDE_WORKSHOP_PANEL": "Ocultar panel de Workshop",
+  "HIDE_MENU_BACKGROUND": "Ocultar panel de fondo del menú",
+  "HIDE_CHIRPER": "Ocultar Chirper",
+  "HIDE_SOCIAL_MEDIA": "Ocultar redes sociales",
+  "GROUP_NETWORK_TRAFFIC": "Tráfico de red (reiniciar para aplicar cambios)",
+  "RESTRICT_ADVERTISING": "Restringir tráfico de DLC y Workshop",
+  "RESTRICT_UGC_DETAILS": "Restringir detalles del contenido generado por usuarios",
+  "RESTRICT_TELEMETRY": "Restringir telemetría (datos de uso)",
+  "GROUP_ADVANCED": "Configuración avanzada",
+  "SHOW_STATISTICS": "Mostrar estadísticas abajo a la izquierda de la pantalla de título"
+}

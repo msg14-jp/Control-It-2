@@ -1,0 +1,19 @@
+{
+  "MOD_DESCRIPTION": "Steuert die Benutzeroberfläche des Titelbildschirms und den Netzwerkverkehr.",
+  "GROUP_LANGUAGE": "Spracheinstellungen",
+  "GROUP_VISUAL_APPEARANCE": "Anzeigeeinstellungen",
+  "HIDE_GAME_LOGO": "Spiellogo ausblenden",
+  "HIDE_SUBSCRIPTION_PANEL": "Abo-Panel ausblenden",
+  "HIDE_DLC_PANEL": "DLC-Panel ausblenden",
+  "HIDE_ACCOUNT_PANEL": "Kontopanel ausblenden",
+  "HIDE_WORKSHOP_PANEL": "Workshop-Panel ausblenden",
+  "HIDE_MENU_BACKGROUND": "Menühintergrund-Panel ausblenden",
+  "HIDE_CHIRPER": "Chirper ausblenden",
+  "HIDE_SOCIAL_MEDIA": "Soziale Medien ausblenden",
+  "GROUP_NETWORK_TRAFFIC": "Netzwerkverkehr (Neustart zum Anwenden)",
+  "RESTRICT_ADVERTISING": "DLC- und Workshop-Datenverkehr einschränken",
+  "RESTRICT_UGC_DETAILS": "Details nutzergenerierter Inhalte einschränken",
+  "RESTRICT_TELEMETRY": "Telemetrie (Nutzungsdaten) einschränken",
+  "GROUP_ADVANCED": "Erweiterte Einstellungen",
+  "SHOW_STATISTICS": "Statistiken unten links auf dem Titelbildschirm anzeigen"
+}

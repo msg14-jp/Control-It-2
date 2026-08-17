@@ -1,0 +1,19 @@
+{
+  "MOD_DESCRIPTION": "Controls the title screen UI and network traffic.",
+  "GROUP_LANGUAGE": "Language Settings",
+  "GROUP_VISUAL_APPEARANCE": "Display Settings",
+  "HIDE_GAME_LOGO": "Hide Game Logo",
+  "HIDE_SUBSCRIPTION_PANEL": "Hide Subscription Panel",
+  "HIDE_DLC_PANEL": "Hide DLC Panel",
+  "HIDE_ACCOUNT_PANEL": "Hide Account Panel",
+  "HIDE_WORKSHOP_PANEL": "Hide Workshop Panel",
+  "HIDE_MENU_BACKGROUND": "Hide Menu Background Panel",
+  "HIDE_CHIRPER": "Hide Chirper",
+  "HIDE_SOCIAL_MEDIA": "Hide Social Media",
+  "GROUP_NETWORK_TRAFFIC": "Network Traffic (Restart to Apply)",
+  "RESTRICT_ADVERTISING": "Restrict DLC and Workshop Traffic",
+  "RESTRICT_UGC_DETAILS": "Restrict User-Generated Content Details",
+  "RESTRICT_TELEMETRY": "Restrict Telemetry (Usage Data)",
+  "GROUP_ADVANCED": "Advanced Settings",
+  "SHOW_STATISTICS": "Show Statistics in the Bottom-Left of the Title Screen"
+}

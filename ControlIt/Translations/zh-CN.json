@@ -1,0 +1,19 @@
+{
+  "MOD_DESCRIPTION": "控制标题画面UI和网络通信。",
+  "GROUP_LANGUAGE": "语言设置",
+  "GROUP_VISUAL_APPEARANCE": "显示设置",
+  "HIDE_GAME_LOGO": "隐藏游戏徽标",
+  "HIDE_SUBSCRIPTION_PANEL": "隐藏订阅面板",
+  "HIDE_DLC_PANEL": "隐藏DLC面板",
+  "HIDE_ACCOUNT_PANEL": "隐藏账户面板",
+  "HIDE_WORKSHOP_PANEL": "隐藏创意工坊面板",
+  "HIDE_MENU_BACKGROUND": "隐藏菜单背景面板",
+  "HIDE_CHIRPER": "隐藏Chirper",
+  "HIDE_SOCIAL_MEDIA": "隐藏社交媒体",
+  "GROUP_NETWORK_TRAFFIC": "网络通信（重启游戏后生效）",
+  "RESTRICT_ADVERTISING": "限制DLC和创意工坊的网络通信",
+  "RESTRICT_UGC_DETAILS": "限制获取用户生成内容的详细信息",
+  "RESTRICT_TELEMETRY": "限制遥测（发送使用数据）",
+  "GROUP_ADVANCED": "高级设置",
+  "SHOW_STATISTICS": "在标题画面左下角显示统计信息"
+}

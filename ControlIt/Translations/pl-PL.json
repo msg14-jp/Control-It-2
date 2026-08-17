@@ -1,0 +1,19 @@
+{
+  "MOD_DESCRIPTION": "Steruje interfejsem ekranu tytułowego i ruchem sieciowym.",
+  "GROUP_LANGUAGE": "Ustawienia języka",
+  "GROUP_VISUAL_APPEARANCE": "Ustawienia wyświetlania",
+  "HIDE_GAME_LOGO": "Ukryj logo gry",
+  "HIDE_SUBSCRIPTION_PANEL": "Ukryj panel subskrypcji",
+  "HIDE_DLC_PANEL": "Ukryj panel DLC",
+  "HIDE_ACCOUNT_PANEL": "Ukryj panel konta",
+  "HIDE_WORKSHOP_PANEL": "Ukryj panel Warsztatu Steam",
+  "HIDE_MENU_BACKGROUND": "Ukryj panel tła menu",
+  "HIDE_CHIRPER": "Ukryj Chirper",
+  "HIDE_SOCIAL_MEDIA": "Ukryj media społecznościowe",
+  "GROUP_NETWORK_TRAFFIC": "Ruch sieciowy (uruchom ponownie, aby zastosować)",
+  "RESTRICT_ADVERTISING": "Ogranicz ruch DLC i Warsztatu Steam",
+  "RESTRICT_UGC_DETAILS": "Ogranicz szczegóły treści tworzonych przez użytkowników",
+  "RESTRICT_TELEMETRY": "Ogranicz telemetrię (dane o użytkowaniu)",
+  "GROUP_ADVANCED": "Ustawienia zaawansowane",
+  "SHOW_STATISTICS": "Wyświetl statystyki w lewym dolnym rogu ekranu tytułowego"
+}

@@ -1,0 +1,19 @@
+{
+  "MOD_DESCRIPTION": "타이틀 화면 UI와 네트워크 통신을 제어합니다.",
+  "GROUP_LANGUAGE": "언어 설정",
+  "GROUP_VISUAL_APPEARANCE": "화면 표시 설정",
+  "HIDE_GAME_LOGO": "게임 로고 숨기기",
+  "HIDE_SUBSCRIPTION_PANEL": "구독 패널 숨기기",
+  "HIDE_DLC_PANEL": "DLC 패널 숨기기",
+  "HIDE_ACCOUNT_PANEL": "계정 패널 숨기기",
+  "HIDE_WORKSHOP_PANEL": "창작마당 패널 숨기기",
+  "HIDE_MENU_BACKGROUND": "메뉴 배경 패널 숨기기",
+  "HIDE_CHIRPER": "Chirper 숨기기",
+  "HIDE_SOCIAL_MEDIA": "소셜 미디어 숨기기",
+  "GROUP_NETWORK_TRAFFIC": "네트워크 통신 (다시 시작하여 적용)",
+  "RESTRICT_ADVERTISING": "DLC 및 창작마당 통신 제한",
+  "RESTRICT_UGC_DETAILS": "사용자 제작 콘텐츠 상세 정보 가져오기 제한",
+  "RESTRICT_TELEMETRY": "텔레메트리 (사용 데이터) 제한",
+  "GROUP_ADVANCED": "고급 설정",
+  "SHOW_STATISTICS": "타이틀 화면 왼쪽 아래에 통계 표시"
+}
