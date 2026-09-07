@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "Controlla l'interfaccia della schermata del titolo e il traffico di rete.",
+  "GROUP_LANGUAGE": "Impostazioni lingua",
+  "GROUP_VISUAL_APPEARANCE": "Impostazioni visualizzazione",
+  "HIDE_GAME_LOGO": "Nascondi logo gioco",
+  "HIDE_SUBSCRIPTION_PANEL": "Nascondi abbonamenti",
+  "HIDE_DLC_PANEL": "Nascondi DLC",
+  "HIDE_ACCOUNT_PANEL": "Nascondi account",
+  "HIDE_WORKSHOP_PANEL": "Nascondi Workshop",
+  "HIDE_MENU_BACKGROUND": "Nascondi pannello sfondo menu",
+  "HIDE_CONTINUE_BUTTON": "Nascondi continua",
+  "HIDE_TOOLS_BUTTON": "Nascondi strumenti",
+  "HIDE_CREDITS_BUTTON": "Nascondi crediti",
+  "HIDE_CHIRPER": "Nascondi Chirper",
+  "HIDE_SOCIAL_MEDIA": "Nascondi social media",
+  "GROUP_NETWORK_TRAFFIC": "Traffico di rete (riavvia per applicare)",
+  "RESTRICT_ADVERTISING": "Limita traffico DLC e Workshop",
+  "RESTRICT_UGC_DETAILS": "Limita recupero dettagli contenuti generati dagli utenti",
+  "RESTRICT_TELEMETRY": "Limita telemetria (invio dati di utilizzo)",
+  "GROUP_ADVANCED": "Impostazioni avanzate",
+  "SHOW_STATISTICS": "Mostra statistiche nell'angolo in basso a sinistra della schermata del titolo"
+}

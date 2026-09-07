@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "Ελέγχει το UI της οθόνης τίτλου και την κίνηση δικτύου.",
+  "GROUP_LANGUAGE": "Ρυθμίσεις γλώσσας",
+  "GROUP_VISUAL_APPEARANCE": "Ρυθμίσεις εμφάνισης",
+  "HIDE_GAME_LOGO": "Απόκρυψη λογότυπου παιχνιδιού",
+  "HIDE_SUBSCRIPTION_PANEL": "Απόκρυψη συνδρομών",
+  "HIDE_DLC_PANEL": "Απόκρυψη DLC",
+  "HIDE_ACCOUNT_PANEL": "Απόκρυψη λογαριασμού",
+  "HIDE_WORKSHOP_PANEL": "Απόκρυψη Workshop",
+  "HIDE_MENU_BACKGROUND": "Απόκρυψη πίνακα φόντου μενού",
+  "HIDE_CONTINUE_BUTTON": "Απόκρυψη συνέχισης",
+  "HIDE_TOOLS_BUTTON": "Απόκρυψη εργαλείων",
+  "HIDE_CREDITS_BUTTON": "Απόκρυψη συντελεστών",
+  "HIDE_CHIRPER": "Απόκρυψη Chirper",
+  "HIDE_SOCIAL_MEDIA": "Απόκρυψη κοινωνικών μέσων",
+  "GROUP_NETWORK_TRAFFIC": "Κίνηση δικτύου (εφαρμογή μετά την επανεκκίνηση)",
+  "RESTRICT_ADVERTISING": "Περιορισμός κίνησης DLC και Workshop",
+  "RESTRICT_UGC_DETAILS": "Περιορισμός λήψης λεπτομερειών περιεχομένου χρηστών",
+  "RESTRICT_TELEMETRY": "Περιορισμός τηλεμετρίας (αποστολή δεδομένων χρήσης)",
+  "GROUP_ADVANCED": "Προηγμένες ρυθμίσεις",
+  "SHOW_STATISTICS": "Εμφάνιση στατιστικών κάτω αριστερά στην οθόνη τίτλου"
+}

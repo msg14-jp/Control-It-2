@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "Гарчгийн дэлгэцийн UI болон сүлжээний холболтыг удирдана.",
+  "GROUP_LANGUAGE": "Хэлний тохиргоо",
+  "GROUP_VISUAL_APPEARANCE": "Дэлгэцийн тохиргоо",
+  "HIDE_GAME_LOGO": "Тоглоомын логог нуух",
+  "HIDE_SUBSCRIPTION_PANEL": "Захиалгын самбарыг нуух",
+  "HIDE_DLC_PANEL": "DLC самбарыг нуух",
+  "HIDE_ACCOUNT_PANEL": "Бүртгэлийн самбарыг нуух",
+  "HIDE_WORKSHOP_PANEL": "Steam Workshop самбарыг нуух",
+  "HIDE_MENU_BACKGROUND": "Цэсний дэвсгэр самбарыг нуух",
+  "HIDE_CONTINUE_BUTTON": "Өмнөх тоглоомыг үргэлжлүүлэхийг нуух",
+  "HIDE_TOOLS_BUTTON": "Хэрэгслүүдийг нуух",
+  "HIDE_CREDITS_BUTTON": "Зохиогчдын мэдээллийг нуух",
+  "HIDE_CHIRPER": "Chirper-ийг нуух",
+  "HIDE_SOCIAL_MEDIA": "Сошиал медиа холбоосуудыг нуух",
+  "GROUP_NETWORK_TRAFFIC": "Сүлжээний холболт (дахин эхлүүлсний дараа хэрэгжинэ)",
+  "RESTRICT_ADVERTISING": "DLC болон Steam Workshop-ийн сүлжээний холболтыг хязгаарлах",
+  "RESTRICT_UGC_DETAILS": "Хэрэглэгчийн үүсгэсэн контентийн дэлгэрэнгүй мэдээлэл авахыг хязгаарлах",
+  "RESTRICT_TELEMETRY": "Телеметрийг (ашиглалтын өгөгдөл илгээх) хязгаарлах",
+  "GROUP_ADVANCED": "Нарийвчилсан тохиргоо",
+  "SHOW_STATISTICS": "Гарчгийн дэлгэцийн зүүн доод буланд статистик харуулах"
+}

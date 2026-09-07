@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "Ohjaa aloitusnäytön käyttöliittymää ja verkkoliikennettä.",
+  "GROUP_LANGUAGE": "Kieliasetukset",
+  "GROUP_VISUAL_APPEARANCE": "Näyttöasetukset",
+  "HIDE_GAME_LOGO": "Piilota pelin logo",
+  "HIDE_SUBSCRIPTION_PANEL": "Piilota tilaus",
+  "HIDE_DLC_PANEL": "Piilota DLC",
+  "HIDE_ACCOUNT_PANEL": "Piilota tili",
+  "HIDE_WORKSHOP_PANEL": "Piilota Workshop",
+  "HIDE_MENU_BACKGROUND": "Piilota valikon taustapaneeli",
+  "HIDE_CONTINUE_BUTTON": "Piilota jatka",
+  "HIDE_TOOLS_BUTTON": "Piilota työkalut",
+  "HIDE_CREDITS_BUTTON": "Piilota tekijätiedot",
+  "HIDE_CHIRPER": "Piilota Chirper",
+  "HIDE_SOCIAL_MEDIA": "Piilota sosiaalinen media",
+  "GROUP_NETWORK_TRAFFIC": "Verkkoliikenne (uudelleenkäynnistyksen jälkeen)",
+  "RESTRICT_ADVERTISING": "Rajoita DLC:n ja Workshopin verkkoliikennettä",
+  "RESTRICT_UGC_DETAILS": "Rajoita käyttäjäsisällön tietojen hakua",
+  "RESTRICT_TELEMETRY": "Rajoita telemetriaa (käyttötietojen lähetys)",
+  "GROUP_ADVANCED": "Lisäasetukset",
+  "SHOW_STATISTICS": "Näytä tilastot aloitusnäytön vasemmassa alakulmassa"
+}

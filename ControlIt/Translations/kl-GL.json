@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "Titelip skærmiata UI-a angallannerlu aqutsivai.",
+  "GROUP_LANGUAGE": "Oqaatsit inissitsiternerat",
+  "GROUP_VISUAL_APPEARANCE": "Takussutissat inissitsiternerat",
+  "HIDE_GAME_LOGO": "Pinnguarisap ilisarnaataa toqqoruk",
+  "HIDE_SUBSCRIPTION_PANEL": "Abonnement toqqoruk",
+  "HIDE_DLC_PANEL": "DLC toqqoruk",
+  "HIDE_ACCOUNT_PANEL": "Konto toqqoruk",
+  "HIDE_WORKSHOP_PANEL": "Workshop toqqoruk",
+  "HIDE_MENU_BACKGROUND": "Menuip tunuliaqutaa toqqoruk",
+  "HIDE_CONTINUE_BUTTON": "Pinnguarnerup nanginnera toqqoruk",
+  "HIDE_TOOLS_BUTTON": "Sakkut toqqoruk",
+  "HIDE_CREDITS_BUTTON": "Creditsit toqqoruk",
+  "HIDE_CHIRPER": "Chirper toqqoruk",
+  "HIDE_SOCIAL_MEDIA": "Social media toqqoruk",
+  "GROUP_NETWORK_TRAFFIC": "Attaveqaatini angallanneq (aallarteqqinnermi atuutilissaaq)",
+  "RESTRICT_ADVERTISING": "DLC-p aamma Workshopip angallannerat killilersoruk",
+  "RESTRICT_UGC_DETAILS": "Atuisut pilersitaannik paasissutissanik pissarsineq killilersoruk",
+  "RESTRICT_TELEMETRY": "Telemetri killilersoruk (atornerup paasissutissaanik nassiussineq)",
+  "GROUP_ADVANCED": "Sukumiinerusumik inissitsiternerit",
+  "SHOW_STATISTICS": "Kisitsisit titelip skærmiata saamiata ataani takutikkit"
+}

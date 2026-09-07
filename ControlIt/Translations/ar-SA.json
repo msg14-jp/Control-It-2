@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "يتحكم في واجهة شاشة العنوان واتصالات الشبكة.",
+  "GROUP_LANGUAGE": "إعدادات اللغة",
+  "GROUP_VISUAL_APPEARANCE": "إعدادات العرض",
+  "HIDE_GAME_LOGO": "إخفاء شعار اللعبة",
+  "HIDE_SUBSCRIPTION_PANEL": "إخفاء الاشتراك",
+  "HIDE_DLC_PANEL": "إخفاء DLC",
+  "HIDE_ACCOUNT_PANEL": "إخفاء الحساب",
+  "HIDE_WORKSHOP_PANEL": "إخفاء Workshop",
+  "HIDE_MENU_BACKGROUND": "إخفاء لوحة خلفية القائمة",
+  "HIDE_CONTINUE_BUTTON": "إخفاء المتابعة",
+  "HIDE_TOOLS_BUTTON": "إخفاء الأدوات",
+  "HIDE_CREDITS_BUTTON": "إخفاء معلومات الاعتمادات",
+  "HIDE_CHIRPER": "إخفاء Chirper",
+  "HIDE_SOCIAL_MEDIA": "إخفاء وسائل التواصل",
+  "GROUP_NETWORK_TRAFFIC": "اتصالات الشبكة (بعد إعادة التشغيل)",
+  "RESTRICT_ADVERTISING": "تقييد اتصالات DLC وWorkshop",
+  "RESTRICT_UGC_DETAILS": "تقييد الحصول على تفاصيل المحتوى الذي ينشئه المستخدمون",
+  "RESTRICT_TELEMETRY": "تقييد القياس عن بُعد (إرسال بيانات الاستخدام)",
+  "GROUP_ADVANCED": "الإعدادات المتقدمة",
+  "SHOW_STATISTICS": "عرض الإحصائيات أسفل يسار شاشة العنوان"
+}

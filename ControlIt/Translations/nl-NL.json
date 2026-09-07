@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "Beheert de UI van het titelscherm en netwerkverkeer.",
+  "GROUP_LANGUAGE": "Taalinstellingen",
+  "GROUP_VISUAL_APPEARANCE": "Weergave-instellingen",
+  "HIDE_GAME_LOGO": "Spel-logo verbergen",
+  "HIDE_SUBSCRIPTION_PANEL": "Abonnementen verbergen",
+  "HIDE_DLC_PANEL": "DLC verbergen",
+  "HIDE_ACCOUNT_PANEL": "Account verbergen",
+  "HIDE_WORKSHOP_PANEL": "Workshop verbergen",
+  "HIDE_MENU_BACKGROUND": "Achtergrondpaneel van menu verbergen",
+  "HIDE_CONTINUE_BUTTON": "Doorgaan verbergen",
+  "HIDE_TOOLS_BUTTON": "Gereedschappen verbergen",
+  "HIDE_CREDITS_BUTTON": "Credits verbergen",
+  "HIDE_CHIRPER": "Chirper verbergen",
+  "HIDE_SOCIAL_MEDIA": "Sociale media verbergen",
+  "GROUP_NETWORK_TRAFFIC": "Netwerkverkeer (na herstart toegepast)",
+  "RESTRICT_ADVERTISING": "DLC- en Workshop-verkeer beperken",
+  "RESTRICT_UGC_DETAILS": "Details van gebruikerscontent ophalen beperken",
+  "RESTRICT_TELEMETRY": "Telemetrie (gebruiksgegevens verzenden) beperken",
+  "GROUP_ADVANCED": "Geavanceerde instellingen",
+  "SHOW_STATISTICS": "Statistieken linksonder op titelscherm weergeven"
+}

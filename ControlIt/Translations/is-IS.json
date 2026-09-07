@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "Stýrir UI titilskjásins og netsamskiptum.",
+  "GROUP_LANGUAGE": "Tungumálastillingar",
+  "GROUP_VISUAL_APPEARANCE": "Birtingarstillingar",
+  "HIDE_GAME_LOGO": "Fela leikmerki",
+  "HIDE_SUBSCRIPTION_PANEL": "Fela áskrift",
+  "HIDE_DLC_PANEL": "Fela DLC",
+  "HIDE_ACCOUNT_PANEL": "Fela reikning",
+  "HIDE_WORKSHOP_PANEL": "Fela Workshop",
+  "HIDE_MENU_BACKGROUND": "Fela bakgrunnsspjald valmyndar",
+  "HIDE_CONTINUE_BUTTON": "Fela halda áfram",
+  "HIDE_TOOLS_BUTTON": "Fela verkfæri",
+  "HIDE_CREDITS_BUTTON": "Fela höfundarupplýsingar",
+  "HIDE_CHIRPER": "Fela Chirper",
+  "HIDE_SOCIAL_MEDIA": "Fela samfélagsmiðla",
+  "GROUP_NETWORK_TRAFFIC": "Netumferð (eftir endurræsingu)",
+  "RESTRICT_ADVERTISING": "Takmarka netumferð DLC og Workshop",
+  "RESTRICT_UGC_DETAILS": "Takmarka öflun upplýsinga um notendaskapað efni",
+  "RESTRICT_TELEMETRY": "Takmarka fjarmælingar (sending notkunargagna)",
+  "GROUP_ADVANCED": "Ítarlegar stillingar",
+  "SHOW_STATISTICS": "Sýna tölfræði neðst til vinstri á titilskjá"
+}

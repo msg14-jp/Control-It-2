@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "Styrer grensesnittet på tittelskjermen og nettverkstrafikken.",
+  "GROUP_LANGUAGE": "Språkinnstillinger",
+  "GROUP_VISUAL_APPEARANCE": "Visningsinnstillinger",
+  "HIDE_GAME_LOGO": "Skjul spillogo",
+  "HIDE_SUBSCRIPTION_PANEL": "Skjul abonnement",
+  "HIDE_DLC_PANEL": "Skjul DLC",
+  "HIDE_ACCOUNT_PANEL": "Skjul konto",
+  "HIDE_WORKSHOP_PANEL": "Skjul Workshop",
+  "HIDE_MENU_BACKGROUND": "Skjul menyens bakgrunnspanel",
+  "HIDE_CONTINUE_BUTTON": "Skjul fortsett",
+  "HIDE_TOOLS_BUTTON": "Skjul verktøy",
+  "HIDE_CREDITS_BUTTON": "Skjul rulletekst",
+  "HIDE_CHIRPER": "Skjul Chirper",
+  "HIDE_SOCIAL_MEDIA": "Skjul sosiale medier",
+  "GROUP_NETWORK_TRAFFIC": "Nettverkstrafikk (krever omstart)",
+  "RESTRICT_ADVERTISING": "Begrens DLC- og Workshop-trafikk",
+  "RESTRICT_UGC_DETAILS": "Begrens henting av detaljer om brukerskapt innhold",
+  "RESTRICT_TELEMETRY": "Begrens telemetri (sending av bruksdata)",
+  "GROUP_ADVANCED": "Avanserte innstillinger",
+  "SHOW_STATISTICS": "Vis statistikk nederst til venstre på tittelskjermen"
+}

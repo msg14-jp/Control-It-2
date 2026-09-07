@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "Styrer grensesnittet på tittelskjermen og nettverkstrafikken.",
+  "GROUP_LANGUAGE": "Språkinnstillingar",
+  "GROUP_VISUAL_APPEARANCE": "Visingsinnstillingar",
+  "HIDE_GAME_LOGO": "Gøym spelogo",
+  "HIDE_SUBSCRIPTION_PANEL": "Gøym abonnement",
+  "HIDE_DLC_PANEL": "Gøym DLC",
+  "HIDE_ACCOUNT_PANEL": "Gøym konto",
+  "HIDE_WORKSHOP_PANEL": "Gøym Workshop",
+  "HIDE_MENU_BACKGROUND": "Gøym menyen sitt bakgrunnspanel",
+  "HIDE_CONTINUE_BUTTON": "Gøym fortset",
+  "HIDE_TOOLS_BUTTON": "Gøym verktøy",
+  "HIDE_CREDITS_BUTTON": "Gøym rulletekst",
+  "HIDE_CHIRPER": "Gøym Chirper",
+  "HIDE_SOCIAL_MEDIA": "Gøym sosiale medium",
+  "GROUP_NETWORK_TRAFFIC": "Nettverkstrafikk (krev omstart)",
+  "RESTRICT_ADVERTISING": "Avgrens DLC- og Workshop-trafikk",
+  "RESTRICT_UGC_DETAILS": "Avgrens henting av detaljar om brukarskapt innhald",
+  "RESTRICT_TELEMETRY": "Avgrens telemetri (sending av bruksdata)",
+  "GROUP_ADVANCED": "Avanserte innstillingar",
+  "SHOW_STATISTICS": "Vis statistikk nedst til venstre på tittelskjermen"
+}

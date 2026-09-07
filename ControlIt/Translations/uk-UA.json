@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "Керує інтерфейсом головного екрана та мережевим трафіком.",
+  "GROUP_LANGUAGE": "Налаштування мови",
+  "GROUP_VISUAL_APPEARANCE": "Налаштування відображення",
+  "HIDE_GAME_LOGO": "Приховати логотип гри",
+  "HIDE_SUBSCRIPTION_PANEL": "Приховати підписку",
+  "HIDE_DLC_PANEL": "Приховати DLC",
+  "HIDE_ACCOUNT_PANEL": "Приховати обліковий запис",
+  "HIDE_WORKSHOP_PANEL": "Приховати Workshop",
+  "HIDE_MENU_BACKGROUND": "Приховати фонову панель меню",
+  "HIDE_CONTINUE_BUTTON": "Приховати Продовжити гру",
+  "HIDE_TOOLS_BUTTON": "Приховати Інструменти",
+  "HIDE_CREDITS_BUTTON": "Приховати Титри",
+  "HIDE_CHIRPER": "Приховати Chirper",
+  "HIDE_SOCIAL_MEDIA": "Приховати соціальні мережі",
+  "GROUP_NETWORK_TRAFFIC": "Мережевий трафік (застосовується після перезапуску)",
+  "RESTRICT_ADVERTISING": "Обмежити трафік DLC та Workshop",
+  "RESTRICT_UGC_DETAILS": "Обмежити отримання деталей користувацького контенту",
+  "RESTRICT_TELEMETRY": "Обмежити телеметрію (дані про використання)",
+  "GROUP_ADVANCED": "Розширені налаштування",
+  "SHOW_STATISTICS": "Показувати статистику в нижньому лівому куті головного екрана"
+}

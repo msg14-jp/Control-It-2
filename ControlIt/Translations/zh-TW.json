@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "控制標題畫面UI和網路通訊。",
+  "GROUP_LANGUAGE": "語言設定",
+  "GROUP_VISUAL_APPEARANCE": "顯示設定",
+  "HIDE_GAME_LOGO": "隱藏遊戲標誌",
+  "HIDE_SUBSCRIPTION_PANEL": "隱藏訂閱",
+  "HIDE_DLC_PANEL": "隱藏DLC",
+  "HIDE_ACCOUNT_PANEL": "隱藏帳號",
+  "HIDE_WORKSHOP_PANEL": "隱藏模組商店",
+  "HIDE_MENU_BACKGROUND": "隱藏選單背景面板",
+  "HIDE_CONTINUE_BUTTON": "隱藏繼續遊戲",
+  "HIDE_TOOLS_BUTTON": "隱藏工具",
+  "HIDE_CREDITS_BUTTON": "隱藏製作人員",
+  "HIDE_CHIRPER": "隱藏Chirper",
+  "HIDE_SOCIAL_MEDIA": "隱藏社群媒體",
+  "GROUP_NETWORK_TRAFFIC": "網路通訊（重新啟動遊戲後生效）",
+  "RESTRICT_ADVERTISING": "限制DLC和模組商店的網路通訊",
+  "RESTRICT_UGC_DETAILS": "限制取得使用者產生內容的詳細資訊",
+  "RESTRICT_TELEMETRY": "限制遙測（傳送使用資料）",
+  "GROUP_ADVANCED": "進階設定",
+  "SHOW_STATISTICS": "在標題畫面左下角顯示統計資訊"
+}

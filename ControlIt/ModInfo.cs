@@ -1,6 +1,7 @@
 ﻿using CitiesHarmony.API;
 using ColossalFramework.UI;
 using ICities;
+using System;
 using System.Collections;
 using System.Linq;
 using System.Reflection;
@@ -10,14 +11,15 @@ namespace ControlIt
 {
     public class ModInfo : IUserMod
     {
-        public string Name => "Control It! 2.0";
+        public string Name => "Control It! 2.1.0";
         public string Description => Translations.Translate("MOD_DESCRIPTION");
 
         private static UIComponent _currentOptionsContainer = null;
+        private bool _isRebuildingUI = false; // 再構築の無限ループを防ぐフラグ
 
         public void OnEnabled()
         {
-            Translations.Index = ModConfig.Instance.LanguageIndex;
+            Translations.Language = ModConfig.Instance.LanguageId;
             Translations.Init();
 
             Translations.eventLanguageChanged -= OnAutoLanguageChanged;
@@ -59,9 +61,11 @@ namespace ControlIt
 
         private void OnAutoLanguageChanged()
         {
-            // UIView上のコルーチンランナーを使って確実にUI再構築を実行
+            // UI再構築中なら重複実行しない
+            if (_isRebuildingUI) return;
+
             UIView view = UIView.GetAView();
-            if (view != null)
+            if (view != null && _currentOptionsContainer != null)
             {
                 view.StartCoroutine(RebuildUIAsync(_currentOptionsContainer));
             }
@@ -69,8 +73,7 @@ namespace ControlIt
 
         public void OnSettingsUI(UIHelperBase helper)
         {
-            // 【修正ポイント1】UI描画時に設定値を再読み込みし、Auto判定・翻訳ファイルの適用を強制的に走らせる
-            Translations.Index = ModConfig.Instance.LanguageIndex;
+            // ★ポイント1: OnSettingsUI冒頭での Translations.Language への再代入を削除してループを防止
 
             // ゲーム側の言語ドロップダウンのフック登録＆初回同期
             Translations.HookLanguageDropdown();
@@ -92,27 +95,23 @@ namespace ControlIt
             // --- 言語選択ドロップダウン ---
             group = helper.AddGroup(Name);
 
+            int currentDropdownIndex = GetCurrentLanguageDropdownIndex();
+
             group.AddDropdown(
                 Translations.Translate("GROUP_LANGUAGE"),
                 Translations.LanguageList,
-                ModConfig.Instance.LanguageIndex,
+                currentDropdownIndex,
                 index =>
                 {
-                    if (ModConfig.Instance.LanguageIndex != index)
+                    string selectedLanguageId = GetLanguageIdFromIndex(index);
+
+                    if (ModConfig.Instance.LanguageId != selectedLanguageId)
                     {
-                        ModConfig.Instance.LanguageIndex = index;
+                        ModConfig.Instance.LanguageId = selectedLanguageId;
                         ModConfig.Instance.Save();
 
-                        Translations.Index = index;
-
-                        if (_currentOptionsContainer != null)
-                        {
-                            UIView view = UIView.GetAView();
-                            if (view != null)
-                            {
-                                view.StartCoroutine(RebuildUIAsync(_currentOptionsContainer));
-                            }
-                        }
+                        // 言語を変更（これが eventLanguageChanged を発火させる）
+                        Translations.Language = selectedLanguageId;
                     }
                 });
 
@@ -158,6 +157,27 @@ namespace ControlIt
             group.AddCheckbox(Translations.Translate("HIDE_MENU_BACKGROUND"), selected, sel =>
             {
                 ModConfig.Instance.HideMenuBackground = sel;
+                ModConfig.Instance.Save();
+            });
+
+            selected = ModConfig.Instance.HideContinueButton;
+            group.AddCheckbox(Translations.Translate("HIDE_CONTINUE_BUTTON"), selected, sel =>
+            {
+                ModConfig.Instance.HideContinueButton = sel;
+                ModConfig.Instance.Save();
+            });
+
+            selected = ModConfig.Instance.HideToolsButton;
+            group.AddCheckbox(Translations.Translate("HIDE_TOOLS_BUTTON"), selected, sel =>
+            {
+                ModConfig.Instance.HideToolsButton = sel;
+                ModConfig.Instance.Save();
+            });
+
+            selected = ModConfig.Instance.HideCreditsButton;
+            group.AddCheckbox(Translations.Translate("HIDE_CREDITS_BUTTON"), selected, sel =>
+            {
+                ModConfig.Instance.HideCreditsButton = sel;
                 ModConfig.Instance.Save();
             });
 
@@ -210,8 +230,34 @@ namespace ControlIt
             });
         }
 
+        private int GetCurrentLanguageDropdownIndex()
+        {
+            if (Translations.LanguageIDs != null)
+            {
+                int index = Array.IndexOf(Translations.LanguageIDs, ModConfig.Instance.LanguageId);
+                if (index >= 0)
+                {
+                    return index;
+                }
+            }
+            return 0;
+        }
+
+        private string GetLanguageIdFromIndex(int index)
+        {
+            if (Translations.LanguageIDs != null && index >= 0 && index < Translations.LanguageIDs.Length)
+            {
+                return Translations.LanguageIDs[index];
+            }
+            return "en-US";
+        }
+
         private IEnumerator RebuildUIAsync(UIComponent container)
         {
+            // ★ポイント2: 二重実行を防ぐガードフラグをオンにする
+            if (_isRebuildingUI) yield break;
+            _isRebuildingUI = true;
+
             yield return new WaitForSecondsRealtime(0.2f);
 
             if (container != null && container.gameObject != null && container.isVisible)
@@ -236,6 +282,9 @@ namespace ControlIt
             }
 
             UpdateContentManagerText();
+
+            // ★ポイント3: 処理が終わったらガードフラグを解除
+            _isRebuildingUI = false;
         }
 
         private void UpdateContentManagerText()

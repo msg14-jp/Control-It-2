@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "ควบคุม UI หน้าจอไตเติลและการสื่อสารเครือข่าย",
+  "GROUP_LANGUAGE": "ตั้งค่าภาษา",
+  "GROUP_VISUAL_APPEARANCE": "ตั้งค่าการแสดงผล",
+  "HIDE_GAME_LOGO": "ซ่อนโลโก้เกม",
+  "HIDE_SUBSCRIPTION_PANEL": "ซ่อนการสมัครสมาชิก",
+  "HIDE_DLC_PANEL": "ซ่อน DLC",
+  "HIDE_ACCOUNT_PANEL": "ซ่อนบัญชี",
+  "HIDE_WORKSHOP_PANEL": "ซ่อน Workshop",
+  "HIDE_MENU_BACKGROUND": "ซ่อนแผงพื้นหลังเมนู",
+  "HIDE_CONTINUE_BUTTON": "ซ่อนเล่นต่อ",
+  "HIDE_TOOLS_BUTTON": "ซ่อนเครื่องมือ",
+  "HIDE_CREDITS_BUTTON": "ซ่อนเครดิต",
+  "HIDE_CHIRPER": "ซ่อน Chirper",
+  "HIDE_SOCIAL_MEDIA": "ซ่อนโซเชียลมีเดีย",
+  "GROUP_NETWORK_TRAFFIC": "การสื่อสารเครือข่าย (มีผลหลังรีสตาร์ต)",
+  "RESTRICT_ADVERTISING": "จำกัดการสื่อสาร DLC และ Workshop",
+  "RESTRICT_UGC_DETAILS": "จำกัดการรับรายละเอียดเนื้อหาที่ผู้ใช้สร้าง",
+  "RESTRICT_TELEMETRY": "จำกัดเทเลเมทรี (ส่งข้อมูลการใช้งาน)",
+  "GROUP_ADVANCED": "ตั้งค่าขั้นสูง",
+  "SHOW_STATISTICS": "แสดงสถิติที่มุมล่างซ้ายหน้าจอไตเติล"
+}

@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "Điều khiển UI màn hình tiêu đề và kết nối mạng.",
+  "GROUP_LANGUAGE": "Cài đặt ngôn ngữ",
+  "GROUP_VISUAL_APPEARANCE": "Cài đặt hiển thị",
+  "HIDE_GAME_LOGO": "Ẩn logo game",
+  "HIDE_SUBSCRIPTION_PANEL": "Ẩn đăng ký",
+  "HIDE_DLC_PANEL": "Ẩn DLC",
+  "HIDE_ACCOUNT_PANEL": "Ẩn tài khoản",
+  "HIDE_WORKSHOP_PANEL": "Ẩn Workshop",
+  "HIDE_MENU_BACKGROUND": "Ẩn bảng nền menu",
+  "HIDE_CONTINUE_BUTTON": "Ẩn Tiếp tục chơi",
+  "HIDE_TOOLS_BUTTON": "Ẩn Công cụ",
+  "HIDE_CREDITS_BUTTON": "Ẩn Tín dụng",
+  "HIDE_CHIRPER": "Ẩn Chirper",
+  "HIDE_SOCIAL_MEDIA": "Ẩn mạng xã hội",
+  "GROUP_NETWORK_TRAFFIC": "Kết nối mạng (cần khởi động lại)",
+  "RESTRICT_ADVERTISING": "Hạn chế kết nối DLC và Workshop",
+  "RESTRICT_UGC_DETAILS": "Hạn chế lấy chi tiết nội dung do người dùng tạo",
+  "RESTRICT_TELEMETRY": "Hạn chế đo từ xa (gửi dữ liệu sử dụng)",
+  "GROUP_ADVANCED": "Cài đặt nâng cao",
+  "SHOW_STATISTICS": "Hiện thống kê ở góc dưới trái màn hình tiêu đề"
+}

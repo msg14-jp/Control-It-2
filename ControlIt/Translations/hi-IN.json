@@ -1,0 +1,22 @@
+{
+  "MOD_DESCRIPTION": "शीर्षक स्क्रीन के UI और नेटवर्क संचार नियंत्रित करता है।",
+  "GROUP_LANGUAGE": "भाषा सेटिंग",
+  "GROUP_VISUAL_APPEARANCE": "प्रदर्शन सेटिंग",
+  "HIDE_GAME_LOGO": "गेम लोगो छिपाएँ",
+  "HIDE_SUBSCRIPTION_PANEL": "सब्सक्रिप्शन छिपाएँ",
+  "HIDE_DLC_PANEL": "DLC छिपाएँ",
+  "HIDE_ACCOUNT_PANEL": "अकाउंट छिपाएँ",
+  "HIDE_WORKSHOP_PANEL": "वर्कशॉप छिपाएँ",
+  "HIDE_MENU_BACKGROUND": "मेनू बैकग्राउंड पैनल छिपाएँ",
+  "HIDE_CONTINUE_BUTTON": "जारी रखें छिपाएँ",
+  "HIDE_TOOLS_BUTTON": "टूल्स छिपाएँ",
+  "HIDE_CREDITS_BUTTON": "क्रेडिट छिपाएँ",
+  "HIDE_CHIRPER": "Chirper छिपाएँ",
+  "HIDE_SOCIAL_MEDIA": "सोशल मीडिया छिपाएँ",
+  "GROUP_NETWORK_TRAFFIC": "नेटवर्क संचार (पुनरारंभ पर लागू)",
+  "RESTRICT_ADVERTISING": "DLC व वर्कशॉप संचार सीमित करें",
+  "RESTRICT_UGC_DETAILS": "उपयोगकर्ता-निर्मित सामग्री की विस्तृत जानकारी सीमित करें",
+  "RESTRICT_TELEMETRY": "टेलीमेट्री (उपयोग डेटा भेजना) सीमित करें",
+  "GROUP_ADVANCED": "उन्नत सेटिंग",
+  "SHOW_STATISTICS": "शीर्षक स्क्रीन के नीचे बाएँ आँकड़े दिखाएँ"
+}
