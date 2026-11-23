@@ -340,28 +340,18 @@ namespace ControlIt
 
                 string translationsFolder = Path.Combine(modPath, "Translations");
 
-                // 探す候補パスのリスト（優先度順）
-                List<string> candidatePaths = new List<string>();
+                // 指定言語のJSONを取得
+                string filePath = Path.Combine(translationsFolder, $"{langCode}.json");
 
-                // 1. 完全一致 (例: ja-JP.json)
-                candidatePaths.Add(Path.Combine(translationsFolder, $"{langCode}.json"));
-
-                // 2. ハイフン前のみ (例: ja.json)
-                if (langCode.Contains("-"))
+                // 指定言語のJSONが存在しない場合は英語にフォールバック
+                if (!File.Exists(filePath))
                 {
-                    string shortLang = langCode.Split('-')[0];
-                    candidatePaths.Add(Path.Combine(translationsFolder, $"{shortLang}.json"));
+                    filePath = Path.Combine(translationsFolder, "en-US.json");
                 }
 
-                // 3. デフォルトフォールバック (en-US.json, en.json)
-                candidatePaths.Add(Path.Combine(translationsFolder, "en-US.json"));
-                candidatePaths.Add(Path.Combine(translationsFolder, "en.json"));
-
-                string filePath = candidatePaths.FirstOrDefault(p => File.Exists(p));
-
-                if (string.IsNullOrEmpty(filePath))
+                if (!File.Exists(filePath))
                 {
-                    Debug.LogError($"[ControlIt] 翻訳ファイルが一つも見つかりませんでした。 (探索コード: {langCode}, フォルダ: {translationsFolder})");
+                    Debug.LogError($"[ControlIt] 翻訳ファイルが見つかりませんでした。 (探索コード: {langCode}, フォルダ: {translationsFolder})");
                     return;
                 }
 

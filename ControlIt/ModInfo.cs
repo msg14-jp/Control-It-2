@@ -11,7 +11,14 @@ namespace ControlIt
 {
     public class ModInfo : IUserMod
     {
-        public string Name => "Control It! 2.1.0";
+        public string Name
+        {
+            get
+            {
+                Version version = Assembly.GetExecutingAssembly().GetName().Version;
+                return $"Control It! {version.Major}.{version.Minor}.{version.Build}";
+            }
+        }
         public string Description => Translations.Translate("MOD_DESCRIPTION");
 
         private static UIComponent _currentOptionsContainer = null;

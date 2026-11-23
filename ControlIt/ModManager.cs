@@ -332,6 +332,13 @@ namespace ControlIt
                 if (hide != !_gameLogo.isVisible) return true;
             }
 
+            // 統計表示
+            if (_networkTrafficRestricedPanel != null)
+            {
+                bool show = ModConfig.Instance.ShowStatistics;
+                if (show != _networkTrafficRestricedPanel.isVisible) return true;
+            }
+
             return false;
         }
 
